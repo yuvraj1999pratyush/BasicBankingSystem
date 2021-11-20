@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Tijori Official</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<style>
+	
+	body{
+		height: 100vh;
+		width: 100vw;
+		background-image:url('paul-fiedler-M_S7pim3Hwg-unsplash.jpg');
+		background-repeat: no-repeat;
+  		background-size: cover;
+	
+	}
+	
+	.trans{
+		opacity: 0.8;
+	}
+	.center {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+}
+
+.sub_div {
+                position: absolute;
+                bottom: 0px;
+            }
+
+	</style>
+</head>
+
+<body>
+	
+    <div class="container center" >
+    <div class="card trans">
+  <div class="card-body trans2">
+    <h1 class="card-title">Tijori</h1>
+    <p class="card-text"><h3>A New Banking Solution For People That Matter...</h3></p>
+    <a th:href="@{/users}" class="btn btn-primary">View All Users</a>
+  </div>
+  </div>
+</div>
+
+<div class="sub_div badge bg-light text-wrap p-2 m-3">By <span style="font-weight:bold">Pratyush Yuvraj  </span>
+                <a href="https://www.linkedin.com/in/pratyush-yuvraj-a0566017a/">
+   
+           <img src="link2.png" alt="IOG Linkedin" style="width:30px;height:27px;">
+           </a>
+</div>
+     
+</body>
+
+
+
+</html>
